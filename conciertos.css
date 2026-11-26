@@ -1,0 +1,97 @@
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("concierto.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-top: 30px;
+    color: white;
+}
+
+.contenedor-tarjetas {
+  background-color: rgb(178, 147, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tarjeta {
+    width: 250px;
+    height: 200px;
+}
+
+.tarjeta {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: scale(1.1);
+}
+
+.contenedor-conciertos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.concierto {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.concierto h2 {
+    margin-bottom: 15px;
+}
+
+.concierto img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.botones-superiores {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    display: flex;
+    gap: 10px;
+
+    z-index: 1000;
+}
+
+.boton-volver,
+.boton-menu {
+    padding: 12px 20px;
+    background-color: #252545;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: transform 0.3s;
+}
+
+.boton-volver:hover,
+.boton-menu:hover {
+    transform: scale(1.1);
+}

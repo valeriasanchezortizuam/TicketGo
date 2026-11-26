@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: rgb(199, 174, 141);
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("image.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-top: 30px;
+    color: white;
+}
+
+p {
+    font-family: "Exile", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+      font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal
+}

@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.imagen-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none;
+}
+h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+.botones-superiores {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.boton-volver,
+.boton-menu {
+    padding: 12px 20px;
+    background-color: #252545;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.contenedor-parques {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 50px;
+}
+.parque {
+    width: 300px;
+    text-align: center;
+}
+.parque img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.comprar {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #252545;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    transition: transform 0.3s;
+}
+
+.comprar:hover {
+    transform: scale(1.1);
+}
